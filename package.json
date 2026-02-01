@@ -1,0 +1,31 @@
+{
+  "name": "projeto-end",
+  "version": "1.0.0",
+  "description": "Estrutura inicial criada conforme solicitado. Para rodar o projeto:",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Almeida363/Projeto-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Almeida363/Projeto-end/issues"
+  },
+  "homepage": "https://github.com/Almeida363/Projeto-end#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
