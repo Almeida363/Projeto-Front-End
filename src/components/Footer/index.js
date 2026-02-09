@@ -75,7 +75,7 @@ export default function FooterComponent() {
             </div>
 
             <div className='footer-final'>
-                <p className='small-digital'>@2024 Digital College</p>
+                <p className='small-digital'>@2026 Digital College</p>
             </div>
         </section>
     );
