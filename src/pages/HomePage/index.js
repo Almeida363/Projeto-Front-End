@@ -1,8 +1,8 @@
-import Offers from '../../components/Offers';
+import Offers from '../../components/Section/Offers';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carrossel from '../../components/Carrossel';
-import Collection from '../../components/Collection';
-import Collection2 from '../../components/Collection2';
+import Carrossel from '../../components/Section/Carrossel';
+import Collection from '../../components/Section/Collection';
+import Collection2 from '../../components/Section/Collection2';
 import ProductsHigh from '../../components/ProductsHigh';
 import './style.css';
 

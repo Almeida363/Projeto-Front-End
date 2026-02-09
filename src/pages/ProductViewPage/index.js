@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SelectedOrders from "../../components/MyRequests";
+import SelectedOrders from "../../components/Section/MyRequests";
 import "./style.css";
 
 export default function UserOrders() {

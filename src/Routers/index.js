@@ -1,12 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import Products from "../pages/Products";
-import MyRequests from "../pages/MyRequests";
-import Category from "../pages/Category";
+import Home from "../pages/HomePage";
+import Products from "../pages/ProductListingPage";
+import MyRequests from "../pages/ProductViewPage";
 import Header from "../components/Header";
-import CreateAccount from "../components/CreateAccount";
-import Login from "../components/Login";
-import ProdutctDetail from "../components/ProdutctDetail";
+import CreateAccount from "../components/Header/CreateAccount";
+import Login from "../components/Header/Login";
+import ProdutctDetails from "../components/ProdutctDetails";
 import Footer from "../components/Footer";
 
 
@@ -17,11 +16,10 @@ export default function Routers() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/produtos" element={<Products />} />
-                <Route path="/categorias" element={<Category />} />
                 <Route path="/meus-pedidos" element={<MyRequests />} />
                 <Route path="/cadastrar" element={<CreateAccount />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/produto-detalhe" element={<ProdutctDetail />} />
+                <Route path="/produto-detalhe" element={<ProdutctDetails />} />
             </Routes>
             <Footer />
         </BrowserRouter>

@@ -1,9 +1,9 @@
 import "./style.css";
-import shirt from "../../images/HightlightedCollection2/camisa.svg";
-import pants from "../../images/HightlightedCollection2/calca.svg";
-import headphone from "../../images/HightlightedCollection2/headphone.svg";
-import tenis from "../../images/HightlightedCollection2/tenis.svg";
-
+import shirt from "../../../images/HightlightedCollection2/camisa.svg";
+import pants from "../../../images/HightlightedCollection2/calca.svg";
+import headphone from "../../../images/HightlightedCollection2/headphone.svg";
+import tenis from "../../../images/HightlightedCollection2/tenis.svg";
+import bone from "../../../images/HightlightedCollection2/bone.svg";
 export default function HightlightedCollection2() {
     return (
         <div className="container">
@@ -26,7 +26,7 @@ export default function HightlightedCollection2() {
                     </div>
                     <div className="hat-section"> 
                         <div className="hat">
-                            <img className="hat-image" src={pants} alt="Bonés" />
+                            <img className="hat-image" src={bone} alt="Bonés" />
                         </div>
                         <span className="hat-label">Bonés</span>
                     </div>
