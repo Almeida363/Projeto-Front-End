@@ -78,3 +78,34 @@
 .noButton {
     display: none;
 }
+
+@media (max-width: 768px) {
+    .header-main {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    
+    .header-h2 {
+        font-size: 24px;
+        padding-top: 30px;
+        margin-left: 5px;
+    }
+    
+    .header-h2-layout {
+        font-size: 24px;
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+    
+    .header-register {
+        font-size: 14px;
+        width: auto;
+        padding-top: 30px;
+    }
+    
+    .header-button {
+        width: 90px;
+        height: 36px;
+        margin-top: 30px;
+    }
+}

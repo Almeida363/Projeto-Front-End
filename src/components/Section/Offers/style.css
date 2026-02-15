@@ -99,6 +99,55 @@
   margin-bottom: 15px;
 }
 
+@media (max-width: 768px) {
+    .offers-1 {
+        flex-direction: column;
+        height: auto;
+        margin: 0 20px;
+        padding: 20px 0;
+    }
+    
+    .left,
+    .right {
+        flex: 1 1 100%;
+        margin: 20px 0;
+    }
+    
+    .left {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    
+    .text1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    
+    .text2 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .button-offers {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .sneaker {
+        width: 90%;
+        height: auto;
+        max-width: 300px;
+    }
+    
+    .elipse {
+        width: 250px;
+        height: 250px;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 .wrapper-content2 {
   margin-bottom: 30px;
 }

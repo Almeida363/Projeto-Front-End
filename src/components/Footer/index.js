@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import faceLogo from '../../images/Footer/logoface.svg';
-import instaLogo from '../../images/Footer/logoinsta.svg';
-import twitterLogo from '../../images/Footer/logott.svg';
-import footerLogo from '../../images/Footer/logofooter.svg';
+import faceLogo from '../../assets/Footer/logoface.svg';
+import instaLogo from '../../assets/Footer/logoinsta.svg';
+import twitterLogo from '../../assets/Footer/logott.svg';
+import footerLogo from '../../assets/Footer/logofooter.svg';
 import "./style.css";
 
 export default function FooterComponent() {
@@ -75,7 +75,7 @@ export default function FooterComponent() {
             </div>
 
             <div className='footer-final'>
-                <p className='small-digital'>@2024 Digital College</p>
+                <p className='small-digital'>@2026 Digital College</p>
             </div>
         </section>
     );

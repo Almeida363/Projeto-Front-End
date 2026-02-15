@@ -37,3 +37,14 @@
 .order-option:hover {
     color: #C92071; 
 }
+@media (max-width: 768px) {
+    .order-by {
+        font-size: 12px;
+        padding: 6px;
+    }
+    
+    .order-option {
+        font-size: 12px;
+        padding: 4px 0;
+    }
+}

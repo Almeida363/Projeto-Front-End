@@ -41,6 +41,36 @@
     flex-direction: column;
 }
 
+@media (max-width: 768px) {
+    .footer-main,
+    .footer-home,
+    .layoutFooter {
+        padding: 40px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-home {
+        margin-top: 40px;
+    }
+    
+    .info-section {
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+    .footer-text {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .digital-store-name {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
 .digital-store {
     display: flex;
     flex-wrap: wrap;

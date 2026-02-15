@@ -145,3 +145,19 @@
 .highlightProducts:hover { 
     color: #C92071;
 }
+
+@media (max-width: 768px) {
+    .navVisible {
+        display: none;
+    }
+    
+    .linkHome,
+    .linkProducts,
+    .linkOrders,
+    .categoria {
+        font-size: 12px;
+        line-height: 22px;
+        width: auto;
+        padding-left: 10px;
+    }
+}

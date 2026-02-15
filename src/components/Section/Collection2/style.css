@@ -75,3 +75,33 @@
     align-items: center;   
     flex-wrap: nowrap;     
 }
+
+@media (max-width: 768px) {
+    .main-section {
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    
+    .items-container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .shirt,
+    .pants,
+    .hat,
+    .headphones,
+    .sneakers {
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+    }
+    
+    .shirt-label,
+    .pants-label,
+    .hat-label,
+    .headphones-label,
+    .sneakers-label {
+        font-size: 12px;
+    }
+}
