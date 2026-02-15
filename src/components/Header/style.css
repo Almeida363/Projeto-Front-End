@@ -11,3 +11,13 @@
     width: 100%;
     height: 60px;
 }
+
+@media (max-width: 768px) {
+    .containerMainHeader {
+        margin: 0px 20px;
+    }
+    
+    .compactHeaderLayout {
+        margin: 0px 20px;
+    }
+}

@@ -116,3 +116,25 @@
 .cart-link:hover {
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .notification-badge {
+        top: 40px;
+        left: 90%;
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    
+    .cart-modal {
+        width: 280px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .modal-title-shoppingCart {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

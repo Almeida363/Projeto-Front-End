@@ -57,3 +57,15 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 768px) {
+    .filterSidebar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .filterSection {
+        margin: 0 15px;
+    }
+}

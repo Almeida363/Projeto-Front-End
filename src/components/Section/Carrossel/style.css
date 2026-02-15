@@ -110,3 +110,37 @@
 .carousel-indicators [aria-current=false] {
     background-color: #ccc !important;
 }
+
+@media (max-width: 768px) {
+    .carousel-main {
+        padding-bottom: 50px;
+        margin-top: 20px;
+    }
+    
+    .ball {
+        width: 80px;
+        height: 80px;
+        left: 50%;
+        top: 50px;
+    }
+    
+    .tenis {
+        padding-left: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+    
+    .phrase2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .phrase3 {
+        font-size: 14px;
+    }
+    
+    .offer-button {
+        width: 100%;
+        max-width: 200px;
+    }
+}

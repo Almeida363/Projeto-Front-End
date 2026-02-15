@@ -31,3 +31,25 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .productBox {
+        margin: 0 20px;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+    
+    .contentBox {
+        flex-direction: column;
+    }
+    
+    .filter-by {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .headerBox {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

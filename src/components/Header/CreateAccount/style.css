@@ -93,3 +93,39 @@ body {
     margin-right: 5px;
     color: #28a745;
 }
+@media (max-width: 768px) {
+    .gradient-register {
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        padding: 20px 0;
+    }
+    
+    .registration-form {
+        width: 90%;
+        max-width: 90%;
+        padding: 30px 20px;
+        gap: 15px;
+    }
+    
+    .input-register {
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .button-submit {
+        width: 100%;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .create-account {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .notification {
+        margin-left: 0;
+        font-size: 14px;
+    }
+}

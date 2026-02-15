@@ -1,9 +1,9 @@
 import "./style.css";
-import shirt from "../../../images/HightlightedCollection2/camisa.svg";
-import pants from "../../../images/HightlightedCollection2/calca.svg";
-import headphone from "../../../images/HightlightedCollection2/headphone.svg";
-import tenis from "../../../images/HightlightedCollection2/tenis.svg";
-import bone from "../../../images/HightlightedCollection2/bone.svg";
+import shirt from "../../../assets/HightlightedCollection2/camisa.svg";
+import pants from "../../../assets/HightlightedCollection2/calca.svg";
+import headphone from "../../../assets/HightlightedCollection2/headphone.svg";
+import tenis from "../../../assets/HightlightedCollection2/tenis.svg";
+import bone from "../../../assets/HightlightedCollection2/bone.svg";
 export default function HightlightedCollection2() {
     return (
         <div className="container">
